@@ -14,6 +14,7 @@
 		7208C0332994C0AA009C7E12 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208C0322994C0AA009C7E12 /* TitleRow.swift */; };
 		7208C0362994C6F4009C7E12 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208C0352994C6F4009C7E12 /* Message.swift */; };
 		7208C0382994C75A009C7E12 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208C0372994C75A009C7E12 /* MessageBubble.swift */; };
+		7208C03A2994FA23009C7E12 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208C0392994FA23009C7E12 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7208C0322994C0AA009C7E12 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		7208C0352994C6F4009C7E12 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		7208C0372994C75A009C7E12 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		7208C0392994FA23009C7E12 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7208C0312994C07C009C7E12 /* Components */,
 				7208C0272994BBCA009C7E12 /* Assets.xcassets */,
 				7208C0292994BBCA009C7E12 /* Preview Content */,
+				7208C0392994FA23009C7E12 /* Extension.swift */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				7208C0262994BBC5009C7E12 /* ContentView.swift in Sources */,
 				7208C0362994C6F4009C7E12 /* Message.swift in Sources */,
 				7208C0382994C75A009C7E12 /* MessageBubble.swift in Sources */,
+				7208C03A2994FA23009C7E12 /* Extension.swift in Sources */,
 				7208C0242994BBC5009C7E12 /* ChatAppApp.swift in Sources */,
 				7208C0332994C0AA009C7E12 /* TitleRow.swift in Sources */,
 			);

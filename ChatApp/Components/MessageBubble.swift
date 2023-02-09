@@ -24,7 +24,7 @@ struct MessageBubble: View {
                 Text("\(message.timestamp.formatted(.dateTime.hour().minute()))")
                     .font(.caption2)
                     .foregroundColor(.gray)
-                    .padding(message.received ? .leading : .trailing)
+                    .padding(message.received ? .leading : .trailing ,25)
             }
         }
         .frame(maxWidth: .infinity, alignment: message.received ? .leading : .trailing)

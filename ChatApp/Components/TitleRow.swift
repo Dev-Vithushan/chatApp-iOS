@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TitleRow: View {
     var ImageURL = ""
-    var name = "Shadurshi"
+    var name = "Vithushan"
     
     
     var body: some View {
@@ -33,11 +33,15 @@ struct TitleRow: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             
             Image(systemName: "phone.fill")
-                .foregroundColor(.gray)
+                .foregroundColor(.white)
                 .padding(10)
-                .background(.white)
+                .background(.green)
                 .cornerRadius(50)
-             
+             Image(systemName: "video.fill")
+                .foregroundColor(.white)
+                .padding(10)
+                .background(.green)
+                .cornerRadius(50)
             
         }
         .padding(20)
